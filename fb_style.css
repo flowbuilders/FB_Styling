@@ -12,10 +12,10 @@ body{
 }
 .wForm fieldset legend{
     padding:10px 0;
-    border-bottom:5px solid #0a7cb9;
+    border-bottom:5px solid #315c9B;
     border-radius:0;
     width:100%;
-    color:#0a7cb9;
+    color:#315c9B;
     font-weight:700;
     font-size:34px!important;
     margin-bottom:5px
@@ -47,14 +47,14 @@ div.oneField label.preField{
     line-height:30px;
     padding:5px;
     word-spacing:0;
-    border:1px solid #d4d4d4;
+    border:1px solid #d0d2d3;
     border-radius:0!important
 }
 .wFormContainer .wForm .inputWrapper input[type=text]{
     height:44px!important
 }
 .wFormContainer .wForm .inputWrapper input[type=password].required:focus,.wFormContainer .wForm .inputWrapper input[type=password]:focus,.wFormContainer .wForm .inputWrapper input[type=text].required:focus,.wFormContainer .wForm .inputWrapper input[type=text]:not(.readonly):focus,.wFormContainer .wForm .inputWrapper select.required:focus,.wFormContainer .wForm .inputWrapper select:focus,.wFormContainer .wForm .inputWrapper textarea.required:focus,.wFormContainer .wForm .inputWrapper textarea:focus{
-    border-color:#0a7cb9!important;
+    border-color:#315c9B!important;
     outline:0
 }
 .wFormContainer .wForm .inputWrapper input[type=text].readonly:focus{
@@ -75,7 +75,7 @@ div.oneField label.preField{
 }
 #submit_button,#tfa_resumeLater,.wFormContainer .wfPagingButtons .wfPageNextButton{
 /*    background-color:#e00; */
-    background-color:#315c9b;
+    background-color:#315c9B;
     border-radius:0!important;
     color:#fff!important;
     text-transform:uppercase;
@@ -87,11 +87,11 @@ input[type=submit]{
     height:56px!important
 }
 #tfa_resumeLater:hover,.wFormContainer .wfPagingButtons .wfPageNextButton:hover,.wFormContainer .wfPagingButtons .wfPagePreviousButton:hover,input[type=submit]:hover{
-    background-color:#0a7cb9!important;
+    background-color:#315c9B!important;
     color:#fff!important
 }
 div.wrapButtons{
-    border-top:5px solid #0a7cb9;
+    border-top:5px solid #315c9B;
     margin-top:50px
 }
 label.postField,label.postField span:nth-child(2){
@@ -126,7 +126,7 @@ label.postField,label.postField span:nth-child(2){
 div.saveAndResume:nth-child(1){
     text-align:left;
 /*    background:#e5e6e7; */
-    background:#fff;
+    background:#ffffff;
     padding:10px 0;
     margin-bottom:3em
 }
@@ -141,7 +141,7 @@ div.saveAndResume{
     width:100%
 }
 #saveAndResumeFieldset{
-    border-bottom:1px dotted #c7c7c7;
+    border-bottom:1px dotted #d0d2d3;
     margin-bottom:3em
 }
 .uploadedFile .fileName{
@@ -193,7 +193,7 @@ input[type=submit]{
     line-height:30px;
     padding:5px;
     word-spacing:0;
-    border:1px solid #d4d4d4;
+    border:1px solid #d0d2d3;
     border-radius:0!important
 }
 .breakout{
@@ -211,7 +211,7 @@ input[type=submit]{
     font-size:16px!important
 }
 h2.sub_heading{
-    color:#0a7cb9;
+    color:#315c9B;
     font-weight:700;
     font-size:40px;
     margin:0 0 .5rem;
@@ -228,7 +228,7 @@ h2.sub_heading{
     margin-right:1rem
 }
 .oneField .inputWrapper select{
-    border:1px solid #d4d4d4;
+    border:1px solid #d0d2d3;
     border-radius:0!important
 }
 .saveAndResume:first-child>div.oneField{
@@ -300,7 +300,7 @@ footer .row.breakout a{
 }
 footer .row.bottom{
     padding:1.5rem 0 1rem;
-    background:#747678;
+    background:#d0d2d3;
     text-align:center
 }
 p.supportInfo{
@@ -334,7 +334,7 @@ p.supportInfo{
         -webkit-appearance:none
     }
     .inputWrapper select:focus{
-        outline:#9263de solid 3px;
+        outline:#1D96FB solid 3px;
         outline-offset:2px
     }
     select::-ms-expand{
@@ -363,7 +363,7 @@ p.supportInfo{
     }
     .wFormContainer .wForm .inputWrapper input[type=checkbox]:checked+.label>.input-checkbox-faux::after,.wFormContainer .wForm .inputWrapper input[type=checkbox]:checked+.label>.input-checkbox-faux::before{
         content:"";
-        background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%230a7cb9' d='M0,0h32v32H0V0z'/%3E%3Cpath fill='%23c700' d='M2,2h28v28H2V2z'/%3E%3C/svg%3E")
+        background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23315c9B' d='M0,0h32v32H0V0z'/%3E%3Cpath fill='%23c700' d='M2,2h28v28H2V2z'/%3E%3C/svg%3E")
     }
     .wFormContainer .wForm .inputWrapper input[type=checkbox]:checked+.label>.input-checkbox-faux::after{
         content:"";
@@ -395,8 +395,8 @@ p.supportInfo{
         font-size:16px;
         padding:12px 0 0;
         background-color:#fff!important;
-        color:#0a7cb9;
-        border:2px solid #0a7cb9;
+        color:#315c9B;
+        border:2px solid #315c9B;
         text-align:center
     }
     .wFormContainer .wForm .inputWrapper input[type=radio]+label::before{
@@ -410,12 +410,13 @@ p.supportInfo{
         display:none
     }
     .wFormContainer .wForm .inputWrapper input[type=radio]:checked+label{
-        border-color:#0675c2;
-        background-color:#0a7cb9!important;
+/*         border-color:#0675c2; */
+		border-color:#000000;
+        background-color:#315c9B!important;
         color:#fff!important
     }
     .wFormContainer .wForm .inputWrapper input[type=radio]:hover+label{
-        background-color:#0a7cb9!important;
+        background-color:#315c9B!important;
         color:#fff!important
     }
     .wFormContainer .wForm .inputWrapper input[type=file]::-webkit-file-upload-button{
@@ -433,7 +434,7 @@ p.supportInfo{
     }
     .wFormContainer .wForm .inputWrapper input[type=file]::-webkit-file-upload-button:hover{
         color:#fff!important;
-        background-color:#0a7cb9!important
+        background-color:#315c9B!important
     }
     .fileWrapper+.uploadButton{
         height:38px
@@ -489,8 +490,8 @@ p.supportInfo{
     }
     .kalendae .k-title{
         border-radius:0;
-        background-color:#0a7cb9;
-        border:1px solid #0a7cb9;
+        background-color:#315c9B;
+        border:1px solid #315c9B;
         color:#fff;
         padding:5px;
         line-height:25px;
@@ -544,11 +545,11 @@ p.supportInfo{
     }
     .kalendae .k-calendar .k-days span.k-active:hover,.kalendae .k-calendar:hover{
         border-color:#888;
-        background-color:#0a7cb9;
+        background-color:#315c9B;
         color:#fff!important
     }
     .kalendae .k-calendar .k-days span.k-active.k-range,.kalendae .k-calendar .k-days span.k-active.k-selected,.kalendae .k-calendar .k-days span.k-range.k-out-of-month,.kalendae .k-calendar .k-days span.k-selected.k-out-of-month{
-        background-color:#0a7cb9;
+        background-color:#315c9B;
         border-color:#0b4d76;
         color:#fff
     }
@@ -651,7 +652,7 @@ p.supportInfo{
         display:block!important
     }
     #tfa_saveForLater:focus+label::before,.wFormContainer .wForm .inputWrapper input[type=checkbox]:focus+.label>.input-checkbox-faux::after{
-        outline:#0a7cb9 solid 3px!important
+        outline:#315c9B solid 3px!important
     }
     .saveAndResume input[type=password],.saveAndResume input[type=text],.wFormContainer .wForm .inputWrapper input[type=text],.wFormContainer .wForm .inputWrapper textarea{
         border:1px solid #575757!important

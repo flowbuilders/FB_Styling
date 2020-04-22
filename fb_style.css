@@ -134,11 +134,12 @@ div.saveAndResume:nth-child(1){
 /*	padding: 2.75rem 3rem 1.5rem 3rem !important; */
 	padding: 0rem 0rem 3rem 0rem !important;
 	margin: 0px !important;
-    margin-bottom:3em
+    margin-bottom:3em	
 }
 div.saveAndResume{
 /*    text-align:center */
 	margin: 0px !important;
+	color:#ffffff
 }
 /* #tfa_1825-D{
     padding:0 */

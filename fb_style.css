@@ -5,7 +5,9 @@ body{
     line-height:30px!important
 }
 .wFormContainer .wForm{
-    border:0
+/*    border:0 */
+	display: flex;
+    flex-direction: column;
 }
 .wFormContainer fieldset{
     border:0!important

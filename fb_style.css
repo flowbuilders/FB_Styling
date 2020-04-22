@@ -125,7 +125,8 @@ label.postField,label.postField span:nth-child(2){
     margin: 0px !important;
 	margin-top: 0px !important;
 /*    text-align:left; */
-    color:#1d96fb
+/*    color:#1d96fb */
+	color:#ffffff
 }
 div.saveAndResume:nth-child(1){
     text-align:left;
@@ -138,8 +139,7 @@ div.saveAndResume:nth-child(1){
 }
 div.saveAndResume{
 /*    text-align:center */
-	margin: 0px !important;
-	color:#ffffff
+	margin: 0px !important
 }
 /* #tfa_1825-D{
     padding:0 */

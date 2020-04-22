@@ -124,19 +124,11 @@ label.postField,label.postField span:nth-child(2){
 	color:#1d96fb
 }
 
-.wFormContainer .wForm .wFormTitle {
-  font-family: $font-title-font;
-  padding: 2.75rem 3rem 1.5rem 3rem !important;
-  margin: 0;
-  font-weight: 400;
-  font-size: $length-title-font-size;
-  background-color: $color-form-header-background-color;
-  color: $color-title-text-color;
-
 div.saveAndResume:nth-child(1){
-    text-align:left;
+/*    text-align:left; */
     background:#ffffff;
-    padding:10px 0;
+/*    padding:10px 0; */
+	padding: 2.75rem 3rem 1.5rem 3rem !important;
     margin-bottom:3em
 }
 div.saveAndResume{

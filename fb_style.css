@@ -117,18 +117,14 @@ label.postField,label.postField span:nth-child(2){
 }
 .wFormContainer .wForm .wFormTitle{
     background:#d0d2d3;
-/*    padding:10px 20px!important; */
-	padding: 2.75rem 3rem 1.5rem 3rem !important;
-    margin: 0;
-/*	text-align:left; */
-	color:#1d96fb
+    padding:10px 20px!important;
+    text-align:left;
+    color:#1d96fb
 }
-
 div.saveAndResume:nth-child(1){
-/*    text-align:left; */
+    text-align:left;
     background:#ffffff;
-/*    padding:10px 0; */
-	padding: 2.75rem 3rem 1.5rem 3rem !important;
+    padding:10px 0;
     margin-bottom:3em
 }
 div.saveAndResume{

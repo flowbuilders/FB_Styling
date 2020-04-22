@@ -120,7 +120,8 @@ label.postField,label.postField span:nth-child(2){
 .wFormContainer .wForm .wFormTitle{
     background:#d0d2d3;
 /*    padding:10px 20px!important; */
-	padding: 2.75rem 3rem 1.5rem 3rem !important;
+/*	padding: 2.75rem 3rem 1.5rem 3rem !important; */
+	padding: 0rem 3rem 0rem 3rem !important;
     margin: 20px !important;
 	margin-top: 0px !important;
 /*    text-align:left; */

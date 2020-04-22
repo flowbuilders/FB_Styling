@@ -74,7 +74,8 @@ div.oneField label.preField{
     height:56px
 }
 #submit_button,#tfa_resumeLater,.wFormContainer .wfPagingButtons .wfPageNextButton{
-    background-color:#e00;
+/*    background-color:#e00; */
+    background-color:#03256c;
     border-radius:0!important;
     color:#fff!important;
     text-transform:uppercase;

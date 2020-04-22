@@ -75,7 +75,7 @@ div.oneField label.preField{
 }
 #submit_button,#tfa_resumeLater,.wFormContainer .wfPagingButtons .wfPageNextButton{
 /*    background-color:#e00; */
-    background-color:#03256c;
+    background-color:#315c9b;
     border-radius:0!important;
     color:#fff!important;
     text-transform:uppercase;
@@ -116,10 +116,12 @@ label.postField,label.postField span:nth-child(2){
     height:0
 }
 .wFormContainer .wForm .wFormTitle{
-    background:#fff;
+/*    background:#fff; */
+    background:#d0d2d3;
     padding:10px 20px!important;
     text-align:left;
-    color:#000
+/*    color:#000 */
+    color:#1d96fb
 }
 div.saveAndResume:nth-child(1){
     text-align:left;

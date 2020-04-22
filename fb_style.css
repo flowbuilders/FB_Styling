@@ -157,7 +157,7 @@ div.saveAndResume{
 .wForm form .wfPagingButtons{
     margin-bottom:2em
 }
-#tfa_2126 .htmlSection .htmlContent span{
+/* #tfa_2126 .htmlSection .htmlContent span{
     color:#bd10e0;
     font-weight:700;
     font-size:16px
@@ -167,7 +167,7 @@ div.saveAndResume{
         font-size:16px;
         text-align:center
     }
-}
+} */
 .wFormWebPage{
 /*    background-color:#fff */
     background-color:#315C9B

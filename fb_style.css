@@ -125,7 +125,6 @@ label.postField,label.postField span:nth-child(2){
 }
 div.saveAndResume:nth-child(1){
     text-align:left;
-/*    background:#e5e6e7; */
     background:#ffffff;
     padding:10px 0;
     margin-bottom:3em
@@ -162,7 +161,9 @@ div.saveAndResume{
     }
 }
 .wFormWebPage{
-    background-color:#fff
+/*    background-color:#fff */
+    background-color:#315C9B
+
 }
 #wFormResumePage h3{
     display:none
@@ -550,7 +551,7 @@ p.supportInfo{
     }
     .kalendae .k-calendar .k-days span.k-active.k-range,.kalendae .k-calendar .k-days span.k-active.k-selected,.kalendae .k-calendar .k-days span.k-range.k-out-of-month,.kalendae .k-calendar .k-days span.k-selected.k-out-of-month{
         background-color:#315c9B;
-        border-color:#0b4d76;
+        border-color:#315C9B;
         color:#fff
     }
     .kalendae .k-calendar .k-days span.k-active.k-range.k-out-of-month,.kalendae .k-calendar .k-days span.k-active.k-selected.k-out-of-month,.kalendae .k-calendar .k-days span.k-range.k-out-of-month,.kalendae .k-calendar .k-days span.k-selected.k-out-of-month{

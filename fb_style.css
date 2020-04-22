@@ -118,7 +118,7 @@ label.postField,label.postField span:nth-child(2){
 .wFormContainer .wForm .wFormTitle{
     background:#d0d2d3;
     padding:10px 20px!important;
-    text-align:left;
+/*    text-align:left; */
     color:#1d96fb
 }
 div.saveAndResume:nth-child(1){

@@ -140,8 +140,8 @@ div.saveAndResume{
 /*    text-align:center */
 	margin: 0px !important;
 }
-#tfa_1825-D{
-    padding:0
+/* #tfa_1825-D{
+    padding:0 */
 }
 .saveAndResume #tfa_confirmPassword,.saveAndResume #tfa_resumeEmail,.saveAndResume #tfa_resumePassword{
     max-width:300px;

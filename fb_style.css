@@ -128,16 +128,16 @@ label.postField,label.postField span:nth-child(2){
     color:#1d96fb
 }
 div.saveAndResume:nth-child(1){
-/*    text-align:left; */
-    text-align:center
+    text-align:left;
+/*    text-align:center; */
     background:#ffffff;
-    padding: 10px 0;
 /*	padding: 2.75rem 3rem 1.5rem 3rem !important; */
+	padding: 1.5rem 3rem 1.5rem 3rem !important;
 	margin: 50px !important;
     margin-bottom:3em
 }
 div.saveAndResume{
-    text-align:center
+/*    text-align:center */
 	margin: 50px !important;
 }
 #tfa_1825-D{

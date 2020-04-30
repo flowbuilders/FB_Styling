@@ -56,13 +56,13 @@ div.oneField label.preField{
 .wFormContainer .wForm .inputWrapper input[type=text]{
     height:44px!important
 }
-.wFormContainer .wForm .inputWrapper input[type=password].required:focus,.wFormContainer .wForm .inputWrapper input[type=password]:focus,.wFormContainer .wForm .inputWrapper input[type=text].required:focus,.wFormContainer .wForm .inputWrapper input[type=text]:not(.readonly):focus,.wFormContainer .wForm .inputWrapper select.required:focus,.wFormContainer .wForm .inputWrapper select:focus,.wFormContainer .wForm .inputWrapper textarea.required:focus,.wFormContainer .wForm .inputWrapper textarea:focus{
+/* .wFormContainer .wForm .inputWrapper input[type=password].required:focus,.wFormContainer .wForm .inputWrapper input[type=password]:focus,.wFormContainer .wForm .inputWrapper input[type=text].required:focus,.wFormContainer .wForm .inputWrapper input[type=text]:not(.readonly):focus,.wFormContainer .wForm .inputWrapper select.required:focus,.wFormContainer .wForm .inputWrapper select:focus,.wFormContainer .wForm .inputWrapper textarea.required:focus,.wFormContainer .wForm .inputWrapper textarea:focus{
     border-color:#000000!important;
-    outline:0
+    outline:0 */
 }
-.wFormContainer .wForm .inputWrapper input[type=text].readonly:focus{
+/* .wFormContainer .wForm .inputWrapper input[type=text].readonly:focus{
     border:none!important;
-    box-shadow:none!important
+    box-shadow:none!important */
 }
 .wFormContainer .wForm .inputWrapper input[type=text].readonly{
     font-weight:700
@@ -345,11 +345,10 @@ p.supportInfo{
         vertical-align:middle;
         -webkit-appearance:none
     }
-    .inputWrapper select:focus{
-/*        outline:#1D96FB solid 3px; */ 
+/*    .inputWrapper select:focus{
         outline:#F3F7F9 solid 3px; 
         outline-offset:2px
-    }
+    } */
     select::-ms-expand{
         display:none
     }

@@ -391,7 +391,7 @@ p.supportInfo{
 /*    .wFormContainer .wForm .inputWrapper input[type=radio]{
         display:block!important;
         position:absolute!important;
-        z-index:-1!important
+        z-index:-1!important */
     }
     .wFormContainer .wForm .inputWrapper input[type=radio]+label{
         display:block;
@@ -419,6 +419,8 @@ p.supportInfo{
     .input-radio-faux{
         display:none
     }
+
+
     .wFormContainer .wForm .inputWrapper input[type=radio]:checked+label{
 		border-color:#000000;
         background-color:#315c9B!important;
@@ -428,7 +430,7 @@ p.supportInfo{
         background-color:#315c9B!important;
         color:#fff!important
     }
-*/
+
     .wFormContainer .wForm .inputWrapper input[type=file]::-webkit-file-upload-button{
         background-color:#e00!important;
         border:none;

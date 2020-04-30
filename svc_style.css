@@ -388,12 +388,12 @@ p.supportInfo{
         padding:0 .5rem .5rem 2.5rem;
         display:block
     }
-    .wFormContainer .wForm .inputWrapper input[type=radio]{
+/*    .wFormContainer .wForm .inputWrapper input[type=radio]{
         display:block!important;
         position:absolute!important;
         z-index:-1!important
     }
-/*    .wFormContainer .wForm .inputWrapper input[type=radio]+label{
+    .wFormContainer .wForm .inputWrapper input[type=radio]+label{
         display:block;
         cursor:pointer;
         font-weight:300;
@@ -408,7 +408,7 @@ p.supportInfo{
         color:#315c9B;
         border:2px solid #315c9B;
         text-align:center
-    } */
+    } 
     .wFormContainer .wForm .inputWrapper input[type=radio]+label::before{
         position:absolute;
         left:.44em;
@@ -430,6 +430,67 @@ p.supportInfo{
         background-color:#315c9B!important;
         color:#fff!important
     }
+*/
+
+.wFormContainer .wForm .inputWrapper input[type='radio'] {
+  position: absolute;
+  opacity: 0;
+}
+
+.wFormContainer .wForm .inputWrapper input[type='radio'] + .label {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  margin-top: 0.3em;
+  margin-bottom: 0.4em;
+}
+
+.wFormContainer .wForm .inputWrapper input[type='radio'] + .label:before {
+  content: '';
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: text-top;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid $color-input-border-color;
+  background: $color-input-background-color;
+  position: relative;
+  top: -1px;
+}
+
+.wFormContainer .wForm .inputWrapper input[type='radio']:not(:checked):hover + .label:before {
+  border: 1px solid $color-input-text-color;
+}
+
+.wFormContainer .wForm .inputWrapper input[type='radio']:checked + .label:after {
+  content: '';
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  border: 5px solid $color-input-text-color;
+  background: $color-input-background-color;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.wFormContainer .wForm .inputWrapper input[type='radio']:checked + .label:before {
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.wFormContainer .wForm[dir="rtl"] input[type='radio'] + .label:before {
+
+}
+
+.wFormContainer .wForm[dir="rtl"] input[type='radio']:checked + .label:after {
+  right: 5px;
+  top: 5px;
+}
+
+
+
 
     .wFormContainer .wForm .inputWrapper input[type=file]::-webkit-file-upload-button{
         background-color:#e00!important;

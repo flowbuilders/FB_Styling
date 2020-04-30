@@ -354,6 +354,10 @@ p.supportInfo{
     select::-ms-expand{
         display:none
     }
+	
+	img {
+  pointer-events: none;
+}
 
 .wFormContainer .wForm .inputWrapper input[type='radio'] {
   position: absolute!important;

@@ -56,13 +56,13 @@ div.oneField label.preField{
 .wFormContainer .wForm .inputWrapper input[type=text]{
     height:44px!important
 }
-/* .wFormContainer .wForm .inputWrapper input[type=password].required:focus,.wFormContainer .wForm .inputWrapper input[type=password]:focus,.wFormContainer .wForm .inputWrapper input[type=text].required:focus,.wFormContainer .wForm .inputWrapper input[type=text]:not(.readonly):focus,.wFormContainer .wForm .inputWrapper select.required:focus,.wFormContainer .wForm .inputWrapper select:focus,.wFormContainer .wForm .inputWrapper textarea.required:focus,.wFormContainer .wForm .inputWrapper textarea:focus{
+.wFormContainer .wForm .inputWrapper input[type=password].required:focus,.wFormContainer .wForm .inputWrapper input[type=password]:focus,.wFormContainer .wForm .inputWrapper input[type=text].required:focus,.wFormContainer .wForm .inputWrapper input[type=text]:not(.readonly):focus,.wFormContainer .wForm .inputWrapper select.required:focus,.wFormContainer .wForm .inputWrapper select:focus,.wFormContainer .wForm .inputWrapper textarea.required:focus,.wFormContainer .wForm .inputWrapper textarea:focus{
     border-color:#000000!important;
-    outline:0 */
+    outline:0
 }
-/* .wFormContainer .wForm .inputWrapper input[type=text].readonly:focus{
+.wFormContainer .wForm .inputWrapper input[type=text].readonly:focus{
     border:none!important;
-    box-shadow:none!important */
+    box-shadow:none!important
 }
 .wFormContainer .wForm .inputWrapper input[type=text].readonly{
     font-weight:700

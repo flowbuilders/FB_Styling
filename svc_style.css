@@ -730,9 +730,9 @@ p.supportInfo{
     .saveAndResume input[type=password],.saveAndResume input[type=text],.wFormContainer .wForm .inputWrapper input[type=text],.wFormContainer .wForm .inputWrapper textarea{
         border:1px solid #575757!important
     }
-    .wFormContainer .wForm .inputWrapper input[type=radio]:focus+label{
+/*    .wFormContainer .wForm .inputWrapper input[type=radio]:focus+label{
         border:2px solid #000
-    }
+    } */
 }
 @media (-ms-high-contrast:none),(-ms-high-contrast:active){
     .wFormContainer .wForm .inputWrapper .oneChoice .input-checkbox-faux::before,.wFormContainer .wForm .inputWrapper .oneChoice .input-radio-faux::before{

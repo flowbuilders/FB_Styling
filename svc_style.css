@@ -346,7 +346,8 @@ p.supportInfo{
         -webkit-appearance:none
     }
     .inputWrapper select:focus{
-        outline:#1D96FB solid 3px;
+/*        outline:#1D96FB solid 3px; */ 
+        outline:#F3F7F9 solid 3px; 
         outline-offset:2px
     }
     select::-ms-expand{

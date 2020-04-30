@@ -61,6 +61,7 @@ div.oneField label.preField{
     outline:0!important
 }
 .wFormContainer .wForm .inputWrapper input[type=text].readonly:focus{
+    outline:0!important
     border:none!important;
     box-shadow:none!important
 }
@@ -346,10 +347,10 @@ p.supportInfo{
         vertical-align:middle;
         -webkit-appearance:none
     }
-/*    .inputWrapper select:focus{
-        outline:#F3F7F9 solid 3px; 
+    .inputWrapper select:focus{
+        outline:0; 
         outline-offset:2px
-    } */
+    }
     select::-ms-expand{
         display:none
     }

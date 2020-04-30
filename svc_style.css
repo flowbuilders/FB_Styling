@@ -17,7 +17,8 @@ body{
     border-bottom:5px solid #315c9B;
     border-radius:0;
     width:100%;
-    color:#315c9B;
+/*    color:#315c9B; */
+    color:ffffff; */
     font-weight:700;
     font-size:34px!important;
     margin-bottom:5px
@@ -56,7 +57,7 @@ div.oneField label.preField{
     height:44px!important
 }
 .wFormContainer .wForm .inputWrapper input[type=password].required:focus,.wFormContainer .wForm .inputWrapper input[type=password]:focus,.wFormContainer .wForm .inputWrapper input[type=text].required:focus,.wFormContainer .wForm .inputWrapper input[type=text]:not(.readonly):focus,.wFormContainer .wForm .inputWrapper select.required:focus,.wFormContainer .wForm .inputWrapper select:focus,.wFormContainer .wForm .inputWrapper textarea.required:focus,.wFormContainer .wForm .inputWrapper textarea:focus{
-    border-color:#315c9B!important;
+    border-color:#000000!important;
     outline:0
 }
 .wFormContainer .wForm .inputWrapper input[type=text].readonly:focus{
@@ -89,11 +90,12 @@ input[type=submit]{
     height:56px!important
 }
 #tfa_resumeLater:hover,.wFormContainer .wfPagingButtons .wfPageNextButton:hover,.wFormContainer .wfPagingButtons .wfPagePreviousButton:hover,input[type=submit]:hover{
-    background-color:#315c9B!important;
-    color:#fff!important
+/*    background-color:#315c9B!important; */
+    background-color:#DC0019;
+	color:#fff!important
 }
 div.wrapButtons{
-    border-top:5px solid #315c9B;
+/*    border-top:5px solid #315c9B; */
     margin-top:50px
 }
 label.postField,label.postField span:nth-child(2){
@@ -221,7 +223,7 @@ input[type=submit]{
     font-size:16px!important
 }
 h2.sub_heading{
-    color:#315c9B;
+/*    color:#315c9B; */
     font-weight:700;
     font-size:40px;
     margin:0 0 .5rem;
@@ -350,87 +352,6 @@ p.supportInfo{
     select::-ms-expand{
         display:none
     }
-/*    .wFormContainer .wForm .inputWrapper .oneChoice .input-checkbox-faux::after,.wFormContainer .wForm .inputWrapper .oneChoice .input-checkbox-faux::before{
-        background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23575757' d='M0,0h32v32H0V0z'/%3E%3Cpath fill='%23eee' d='M2,2h28v28H2V2z'/%3E%3C/svg%3E");
-        width:38px;
-        width:2.375rem;
-        height:38px;
-        height:2.375rem;
-        content:' ';
-        display:block;
-        position:absolute;
-        -webkit-box-sizing:border-box;
-        box-sizing:border-box;
-        background-repeat:no-repeat;
-        z-index:100;
-        left:-3px;
-        top:-2px;
-        border:3px solid transparent
-    }
-    .wForm form .oneChoice{
-        display:inline-block;
-        position:relative
-    }
-    .wFormContainer .wForm .inputWrapper input[type=checkbox]:checked+.label>.input-checkbox-faux::after,.wFormContainer .wForm .inputWrapper input[type=checkbox]:checked+.label>.input-checkbox-faux::before{
-        content:"";
-        background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23315c9B' d='M0,0h32v32H0V0z'/%3E%3Cpath fill='%23c700' d='M2,2h28v28H2V2z'/%3E%3C/svg%3E")
-    }
-    .wFormContainer .wForm .inputWrapper input[type=checkbox]:checked+.label>.input-checkbox-faux::after{
-        content:"";
-        background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23fff' d='M25.6,11.4c0.2-0.2,0.2-0.5,0-0.7l-2.3-2.3c-0.2-0.2-0.5-0.2-0.7,0L14,17l-3.6-3.6c-0.2-0.2-0.5-0.2-0.7,0l-2.3,2.3 c-0.2,0.2-0.2,0.5,0,0.7l6.3,6.3c0.2,0.2,0.5,0.2,0.7,0L25.6,11.4L25.6,11.4z'/%3E%3C/svg%3E")
-    }
-    [type=checkbox],[type=radio]{
-        -webkit-box-sizing:border-box;
-        box-sizing:border-box;
-        padding:0
-    }
-    label.postField:not(.uploadedFile label){
-        padding:0 .5rem .5rem 2.5rem;
-        display:block
-    }
-    .wFormContainer .wForm .inputWrapper input[type=radio]{
-        display:block!important;
-        position:absolute!important;
-        z-index:-1!important
-    }
-    .wFormContainer .wForm .inputWrapper input[type=radio]+label{
-        display:block;
-        cursor:pointer;
-        font-weight:300;
-        height:30px;
-        min-height:30px;
-        width:181px;
-        box-shadow:none!important;
-        border-radius:0;
-        font-size:16px;
-        padding:12px 0 0;
-        background-color:#fff!important;
-        color:#315c9B;
-        border:2px solid #315c9B;
-        text-align:center
-    } 
-    .wFormContainer .wForm .inputWrapper input[type=radio]+label::before{
-        position:absolute;
-        left:.44em;
-        color:#000;
-        content:"";
-        font-size:24px
-    }
-    .input-radio-faux{
-        display:none
-    }
-
-
-    .wFormContainer .wForm .inputWrapper input[type=radio]:checked+label{
-		border-color:#000000;
-        background-color:#315c9B!important;
-        color:#fff!important
-    }
-    .wFormContainer .wForm .inputWrapper input[type=radio]:hover+label{
-        background-color:#315c9B!important;
-        color:#fff!important
-    }
-*/
 
 .wFormContainer .wForm .inputWrapper input[type='radio'] {
   position: absolute!important;

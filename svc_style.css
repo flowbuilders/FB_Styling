@@ -379,7 +379,7 @@ p.supportInfo{
         content:"";
         background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23fff' d='M25.6,11.4c0.2-0.2,0.2-0.5,0-0.7l-2.3-2.3c-0.2-0.2-0.5-0.2-0.7,0L14,17l-3.6-3.6c-0.2-0.2-0.5-0.2-0.7,0l-2.3,2.3 c-0.2,0.2-0.2,0.5,0,0.7l6.3,6.3c0.2,0.2,0.5,0.2,0.7,0L25.6,11.4L25.6,11.4z'/%3E%3C/svg%3E")
     }
-    [type=checkbox],[type=radio]{
+/*    [type=checkbox],[type=radio]{
         -webkit-box-sizing:border-box;
         box-sizing:border-box;
         padding:0
@@ -388,7 +388,7 @@ p.supportInfo{
         padding:0 .5rem .5rem 2.5rem;
         display:block
     }
-/*    .wFormContainer .wForm .inputWrapper input[type=radio]{
+    .wFormContainer .wForm .inputWrapper input[type=radio]{
         display:block!important;
         position:absolute!important;
         z-index:-1!important

@@ -481,7 +481,9 @@ p.supportInfo{
 }
 
 .wFormContainer .wForm[dir="rtl"] input[type='radio'] + .label:before {
-
+  border: 1px solid rgba(0, 0, 0, 0)!important;
+  right: 5px!important;
+  top: 5px!important;
 }
 
 .wFormContainer .wForm[dir="rtl"] input[type='radio']:checked + .label:after {

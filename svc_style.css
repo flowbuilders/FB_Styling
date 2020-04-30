@@ -388,12 +388,12 @@ p.supportInfo{
         padding:0 .5rem .5rem 2.5rem;
         display:block
     }
-/*    .wFormContainer .wForm .inputWrapper input[type=radio]{
+    .wFormContainer .wForm .inputWrapper input[type=radio]{
         display:block!important;
         position:absolute!important;
-        z-index:-1!important */
+        z-index:-1!important
     }
-    .wFormContainer .wForm .inputWrapper input[type=radio]+label{
+/*    .wFormContainer .wForm .inputWrapper input[type=radio]+label{
         display:block;
         cursor:pointer;
         font-weight:300;
@@ -408,7 +408,7 @@ p.supportInfo{
         color:#315c9B;
         border:2px solid #315c9B;
         text-align:center
-    }
+    } */
     .wFormContainer .wForm .inputWrapper input[type=radio]+label::before{
         position:absolute;
         left:.44em;

@@ -20,7 +20,7 @@ body{
 /*    color:#315c9B; */
     color:ffffff; */
     font-weight:700;
-    font-size:34px!important;
+    font-size:34px;
     margin-bottom:5px
 }
 .wFormContainer .errMsg{
@@ -42,7 +42,7 @@ div.oneField label.preField{
     cursor:text;
     display:inline-block;
     font-family:Montserrat,sans-serif;
-    font-size:10px;
+    font-size:18px;
     font-stretch:100%;
     font-style:normal;
     font-weight:400;
@@ -189,7 +189,7 @@ input[type=submit]{
     border-radius:0!important;
     color:#fff!important;
     text-transform:uppercase;
-    font-size:16px!important;
+    font-size:16px;
     font-weight:700
 }
 .wForm input[type=text],input[type=password]{
@@ -222,7 +222,7 @@ input[type=submit]{
     background-repeat:no-repeat
 }
 .labelsLeftAligned .label span{
-    font-size:16px!important
+    font-size:16px
 }
 h2.sub_heading{
 /*    color:#315c9B; */
@@ -590,7 +590,7 @@ p.supportInfo{
     .kalendae .k-btn-next-month,.kalendae .k-btn-next-year,.kalendae .k-btn-previous-month,.kalendae .k-btn-previous-year{
         top:10px;
         color:#fff;
-        font-size:20px!important;
+        font-size:20px;
         line-height:14px!important
     }
     .kalendae .k-btn-next-year:hover,.kalendae .k-btn-previous-year:hover{

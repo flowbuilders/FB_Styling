@@ -14,7 +14,7 @@ body{
 }
 .wForm fieldset legend{
     padding:10px 0;
-    border-bottom:5px solid #315c9B;
+/*    border-bottom:5px solid #315c9B; */
     border-radius:0;
     width:100%;
 /*    color:#315c9B; */
@@ -107,7 +107,7 @@ label.postField,label.postField span:nth-child(2){
 @media screen and (-webkit-min-device-pixel-ratio:0){
     .wFormContainer .wForm .inputWrapper input[type=file]{
         background-color:#fff!important;
-        border:1px solid #ddd!important;
+/*        border:1px solid #ddd!important; */
         border-radius:0!important;
         display:inline-block;
         height:44px!important;
@@ -431,7 +431,7 @@ p.supportInfo{
     }
     .wFormContainer .wForm .inputWrapper input[type=file]::-webkit-file-upload-button:hover{
         color:#fff!important;
-        background-color:#315c9B!important
+/*        background-color:#315c9B!important */
     }
     .fileWrapper+.uploadButton{
         height:38px
@@ -487,8 +487,8 @@ p.supportInfo{
     }
     .kalendae .k-title{
         border-radius:0;
-        background-color:#315c9B;
-        border:1px solid #315c9B;
+/*        background-color:#315c9B;
+        border:1px solid #315c9B; */
         color:#fff;
         padding:5px;
         line-height:25px;
@@ -542,12 +542,12 @@ p.supportInfo{
     }
     .kalendae .k-calendar .k-days span.k-active:hover,.kalendae .k-calendar:hover{
         border-color:#888;
-        background-color:#315c9B;
+/*        background-color:#315c9B; */
         color:#fff!important
     }
     .kalendae .k-calendar .k-days span.k-active.k-range,.kalendae .k-calendar .k-days span.k-active.k-selected,.kalendae .k-calendar .k-days span.k-range.k-out-of-month,.kalendae .k-calendar .k-days span.k-selected.k-out-of-month{
-        background-color:#315c9B;
-        border-color:#315C9B;
+/*        background-color:#315c9B;
+        border-color:#315C9B; */
         color:#fff
     }
     .kalendae .k-calendar .k-days span.k-active.k-range.k-out-of-month,.kalendae .k-calendar .k-days span.k-active.k-selected.k-out-of-month,.kalendae .k-calendar .k-days span.k-range.k-out-of-month,.kalendae .k-calendar .k-days span.k-selected.k-out-of-month{
@@ -649,7 +649,7 @@ p.supportInfo{
         display:block!important
     }
     #tfa_saveForLater:focus+label::before,.wFormContainer .wForm .inputWrapper input[type=checkbox]:focus+.label>.input-checkbox-faux::after{
-        outline:#315c9B solid 3px!important
+/*        outline:#315c9B solid 3px!important */
     }
     .saveAndResume input[type=password],.saveAndResume input[type=text],.wFormContainer .wForm .inputWrapper input[type=text],.wFormContainer .wForm .inputWrapper textarea{
         border:1px solid #575757!important

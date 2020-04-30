@@ -371,7 +371,7 @@ p.supportInfo{
         display:inline-block;
         position:relative
     }
-    .wFormContainer .wForm .inputWrapper input[type=checkbox]:checked+.label>.input-checkbox-faux::after,.wFormContainer .wForm .inputWrapper input[type=checkbox]:checked+.label>.input-checkbox-faux::before{
+/*    .wFormContainer .wForm .inputWrapper input[type=checkbox]:checked+.label>.input-checkbox-faux::after,.wFormContainer .wForm .inputWrapper input[type=checkbox]:checked+.label>.input-checkbox-faux::before{
         content:"";
         background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23315c9B' d='M0,0h32v32H0V0z'/%3E%3Cpath fill='%23c700' d='M2,2h28v28H2V2z'/%3E%3C/svg%3E")
     }
@@ -383,7 +383,7 @@ p.supportInfo{
         -webkit-box-sizing:border-box;
         box-sizing:border-box;
         padding:0
-    }
+    } */
     label.postField:not(.uploadedFile label){
         padding:0 .5rem .5rem 2.5rem;
         display:block

@@ -20,7 +20,7 @@ body{
 /*    color:#315c9B; */
     color:ffffff; */
     font-weight:700;
-/*    font-size:34px; */
+    font-size:34px;
     margin-bottom:5px
 }
 .wFormContainer .errMsg{
@@ -32,7 +32,7 @@ body{
     padding:0!important
 }
 div.oneField label.preField{
-    font-size:20px;
+/*    font-size:20px; */
     font-weight:700
 }
 .saveAndResume input[type=password],.saveAndResume input[type=text],.wFormContainer .wForm .inputWrapper input[type=text],.wFormContainer .wForm .inputWrapper textarea{
@@ -42,7 +42,7 @@ div.oneField label.preField{
     cursor:text;
     display:inline-block;
     font-family:Montserrat,sans-serif;
-    font-size:18px;
+/*    font-size:18px; */
     font-stretch:100%;
     font-style:normal;
     font-weight:400;
@@ -199,7 +199,7 @@ input[type=submit]{
     cursor:text;
     display:inline-block;
     font-family:Montserrat,sans-serif;
-    font-size:18px;
+/*    font-size:18px; */
     font-stretch:100%;
     font-style:normal;
     font-weight:400;

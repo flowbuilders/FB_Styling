@@ -33,7 +33,7 @@ body{
 }
 div.oneField label.preField{
 /*    font-size:20px; */
-    font-weight:700
+/*    font-weight:700 */
 }
 .saveAndResume input[type=password],.saveAndResume input[type=text],.wFormContainer .wForm .inputWrapper input[type=text],.wFormContainer .wForm .inputWrapper textarea{
     background-color:#fff;
@@ -202,7 +202,7 @@ input[type=submit]{
 /*    font-size:18px; */
     font-stretch:100%;
     font-style:normal;
-    font-weight:400;
+/*    font-weight:400; */
     letter-spacing:normal;
     line-height:30px;
     padding:5px;
